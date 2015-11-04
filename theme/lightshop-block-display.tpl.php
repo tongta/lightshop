@@ -13,7 +13,7 @@
  */
 ?>
 <?php
-if ($not_empty): ?>
+if (!empty($basket_items)): ?>
 <div>
   <?php print $basket_items_list; ?>
   </div>
